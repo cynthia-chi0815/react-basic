@@ -2,6 +2,8 @@ import reactLogo from './assets/react.svg'
 import styles from './App.module.css'
 //ボタンコンポーネント
 import { Button } from './components/Button/index'
+//Profileコンポーネント
+import { Profile } from './components/Profile/index'
 
 export const App = () => {
     return (
@@ -12,13 +14,14 @@ export const App = () => {
             </div>
 
             <hr />
-
             <div>
                 <Button />
                 <Button />
                 <Button />
             </div>
-        </div>
+            <hr />
+            <Profile />
+        </div >
     )
 }
 
