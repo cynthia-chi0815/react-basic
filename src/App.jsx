@@ -14,6 +14,8 @@ import { LanguageList } from './components/LanguageList/index'
 import { AlertButton } from './components/AlertButton'
 //useeStste
 import { InputField } from './components/InputField'
+//useEffect
+import { CharacterImage } from './components/CharacterImage'
 
 
 export const App = () => {
@@ -56,6 +58,8 @@ export const App = () => {
             <AlertButton />
             <hr />
             <InputField />
+            <hr />
+            <CharacterImage />
         </div >
     )
 }
