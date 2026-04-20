@@ -12,6 +12,8 @@ import { TodoItem } from './components/TodoItem/index'
 import { LanguageList } from './components/LanguageList/index'
 //アラートボタンコンポーネント
 import { AlertButton } from './components/AlertButton'
+//useeStste
+import { InputField } from './components/InputField'
 
 
 export const App = () => {
@@ -52,6 +54,8 @@ export const App = () => {
             <LanguageList />
             <hr />
             <AlertButton />
+            <hr />
+            <InputField />
         </div >
     )
 }
