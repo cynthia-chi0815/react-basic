@@ -10,7 +10,8 @@ import { Card } from './components/Card/index'
 import { TodoItem } from './components/TodoItem/index'
 //リストレンダー
 import { LanguageList } from './components/LanguageList/index'
-
+//アラートボタンコンポーネント
+import { AlertButton } from './components/AlertButton'
 
 
 export const App = () => {
@@ -49,6 +50,8 @@ export const App = () => {
             </ul>
             <hr />
             <LanguageList />
+            <hr />
+            <AlertButton />
         </div >
     )
 }
