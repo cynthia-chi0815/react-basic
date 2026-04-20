@@ -1,13 +1,24 @@
 import reactLogo from './assets/react.svg'
 import styles from './App.module.css'
+//ボタンコンポーネント
+import { Button } from './components/Button/index'
 
 export const App = () => {
     return (
+        <div>
+            <div>
+                <img src={reactLogo} className={styles['react-logo']} />
+                <h1>Hello React!</h1>
+            </div>
 
-<div>
-    <img src={reactLogo} className={styles['react-logo']} />
-    <h1>Hello React!</h1>
+            <hr />
 
-    {/* 以下に練習問題の回答を記述してください */}
-</div>
-    )}
+            <div>
+                <Button />
+                <Button />
+                <Button />
+            </div>
+        </div>
+    )
+}
+
