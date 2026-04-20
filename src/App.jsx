@@ -7,6 +7,7 @@ import { Profile } from './components/Profile/index'
 //Countryコンポーネント
 import { Country } from './components/Country/index'
 import { Card } from './components/Card/index'
+import { TodoItem } from './components/TodoItem/index'
 
 
 
@@ -32,12 +33,18 @@ export const App = () => {
             <Profile />
             <hr />
             <Card>
-            <Country
-                info={countryInfo}
-                width={120}
-                height={80}
-            />
+                <Country
+                    info={countryInfo}
+                    width={120}
+                    height={80}
+                />
             </Card>
+            <hr />
+            <ul>
+                <TodoItem name='Reactの学習' isToday={true} isCompleted={true} />
+                <TodoItem name='HTMLの復習' isToday={true} isCompleted={false} />
+                <TodoItem name='React Hooksの予習' isToday={false} isCompleted={false} />
+            </ul>
         </div >
     )
 }
