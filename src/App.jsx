@@ -7,6 +7,7 @@ import { Profile } from './components/Profile/index'
 //Countryコンポーネント
 import { Country } from './components/Country/index'
 import { Card } from './components/Card/index'
+//TodoItemコンポーネント
 import { TodoItem } from './components/TodoItem/index'
 //リストレンダー
 import { LanguageList } from './components/LanguageList/index'
@@ -17,13 +18,11 @@ import { InputField } from './components/InputField'
 //useEffect
 import { CharacterImage } from './components/CharacterImage'
 
-
 export const App = () => {
     const countryInfo = {
         imgUrl: 'https://www.civillink.net/sozai/kokki100/pics2654.gif',
         name: 'アメリカ'
     };
-
     return (
         <div>
             <div>

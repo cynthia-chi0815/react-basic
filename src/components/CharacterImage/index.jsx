@@ -1,6 +1,5 @@
 import axios from 'axios'
-import { use, useEffect } from 'react'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 export const CharacterImage = () => {
   const [imgUrl, setImgUrl] = useState('')
