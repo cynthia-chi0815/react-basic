@@ -19,10 +19,7 @@ import { InputField } from './components/InputField'
 import { CharacterImage } from './components/CharacterImage'
 
 export const App = () => {
-    const countryInfo = {
-        imgUrl: 'https://www.civillink.net/sozai/kokki100/pics2654.gif',
-        name: 'アメリカ'
-    };
+
     return (
         <div>
             <div>
@@ -40,9 +37,10 @@ export const App = () => {
             <hr />
             <Card>
                 <Country
-                    info={countryInfo}
-                    width={120}
-                    height={80}
+                info={{imgUrl: 'https://www.civillink.net/sozai/kokki100/pics2654.gif',
+                name: 'アメリカ'}}
+                width={120}
+                height={80}
                 />
             </Card>
             <hr />
